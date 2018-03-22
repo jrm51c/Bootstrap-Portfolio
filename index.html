@@ -36,13 +36,13 @@
 
     <div class="container">
 
-        <div class="row" style="background-color: pink">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 leftColumn">
                 <div class="page-header">
-                    <h1>About Me</h1>
+                    <h1 id="leftColHeading">About Me</h1>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="background-color: yellow">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 rightColumn">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title">Connect With Me</h3>
@@ -63,19 +63,31 @@
 
         </div>
 
-        <div class="row" style="background-color: orange">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <img src="./assets/images/bioPicture.jpg" alt="Image of Jason" class="img-thumbnail">
-            </div>
-             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare,
-                    eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean
-                    at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
-                </p>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 leftColumn">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <img src="./assets/images/bioPicture.jpg" alt="Image of Jason" class="img-thumbnail">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique, nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae felis vulputate pretium. Nullam commodo, est ac auctor ornare,
+                        eros nisi fringilla sem, non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus, luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et neque fringilla ultricies. Aenean
+                        at feugiat elit, a posuere justo. Pellentesque egestas dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id posuere sem congue a.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- begin footer -->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+            <div  class="container">
+              <p class="navbar-text" style="background-color: red">
+                  © Copyright 2018 Jason McCarthy
+              </p>
+            </div>
+    </div>
+    <!-- end footer -->
     
       <!-- jQuery CDN -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
