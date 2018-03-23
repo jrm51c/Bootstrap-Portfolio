@@ -1,6 +1,6 @@
 .navbar-brand   {
-    background-color: #4aaaa5;
-    color: #ffffff;
+    font-weight: 900;
+    color: black;
 }
 
 
@@ -8,24 +8,40 @@ body    {
    background-image: url("../images/ep_naturalwhite.png");
 }
 
-.leftColumn  {
+#leftColHeading {
+    height: 70px;
+}
+
+.leftColumn    {
     background-color: #ffffff;
+}
+
+/* align social media icons */
+#gitHub   {
+    float: left;
+    margin-right: 110px;
 
 }
+
+#linkedIn   {
+    
+    float: left;
+    margin-right: 110px;
+}
+
+#stack   {
+    float: left;
+
+}
+
+
 h1 {
-    /*background-color: #4aaaa5;*/
     color: #4aaaa5;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 25px;
     font-weight: 600;
     width: 25%;
-    /*padding-left: 15px;
-    padding-top: 15px;
-    
-    height: 65px;
-    vertical-align: middle;
-}*/
-
+}
 
 p   {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -40,335 +56,22 @@ p   {
     color: #ffffff;
 }
 
-.pageHeader {
-    background-color: yellow;
-}
-
-#nav    {
-    margin: 0 auto;
-}
-
-/*.container  {
-    background-color: #ffffff;
-   border: solid #dddddd 3px;
-    width: 930px;
-    height: 400px;
-    margin: auto;
-    padding-left: 15px;
-    padding-right: 20px;*/
-}
-
-/*
-#header {
-    background-color: #ffffff;
-    border-bottom: solid #cccccc 3px;
-    height: 100px;
-    margin-bottom: 20px;
-    padding-left: 25px;
-}
 
 
 
-#aboutMe  {
-    background-color: #ffffff;
-    border: solid #dddddd 3px;
-    margin: auto;
-}
-
-#connectWithMe  {
-    background-color: #ffffff;
-    border: solid #dddddd 3px;
-    margin-left: 25px;
-    height: 150px;
-}
-
-
-#footer  {
-    background-color: #666666;
-    border-top: solid #4aaaa5 10px;
-    height: 80px;
-    width: 100%;
-    margin-top: 150px;
-    text-align: center;
-    vertical-align: middle;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: white;
-}
-
-h1 {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 25px;
-    font-weight: 600;
-    margin-left: 150px;
-    padding-left: 15px;
-    padding-top: 15px;
-    width: 33%;
-    height: 65px;
-    vertical-align: middle;
-}
-
-h2  {
-    background-color: white;
-    border-bottom: solid #cccccc 3px;
-    color: #4aaaa5;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-#socialLinks    {
-    background-color: yellow;
-    
-}
-
-
-/*
-header    {
-    background-color: #ffffff;
-    border-bottom: solid #cccccc 3px;
-    height: 80px;
-    margin-bottom: 20px;
- }
-
- #header    {
-    background-color: #ffffff;
-    height: 80px;
-    width: 960px;
-    margin: 0 auto;
- }
 
 
 
-#gallery   {
-    height: 800px;
-}
 
 
-h1 {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 25px;
-    font-weight: 600;
-    height: 80px;
-    width: 25%;
-    text-align: left;
-    vertical-align: middle;
-    line-height: 80px;
-    float: left;
-    padding-left: 15px;
-}
-
-h2  {
-    background-color: white;
-    border-bottom: solid grey 5px;
-    color: #4aaaa5;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 25px;
-    font-weight: 600;
-    height: 80px;
-    width: 930px;
-    padding-left: 5px;
-    text-align: left;
-    vertical-align: middle;
-    line-height: 80px;
-}
-
-p   {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: #777777;
-}
-*/
-
-#bioPic {
-    /*float: left;*/
-    /*height: 300px;
-    width: 300px;
-    margin-bottom: 10px;*/
-
-}
-
-/*
-.images {
-    height: 200px;
-    width: 300px;
-    float: left;
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
-
-.banners {
-    background-color: #4aaaa5;
-    height: 40px;
-    width: 300px;
-    color: white;
-    text-align: center;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    vertical-align: middle;
-    line-height: 40px;
-    position: absolute;
-    top: 360px;
-}
-
-#tigerPic   {
-    height: 200px;
-    width: 300px;
-    position: relative;
-    margin-top: 25px;
-    margin-right: 25px;
-}
 
 
-#gorillaPic     {
-    height: 200px;
-    width: 300px;
-    position: relative;
-    margin-top: 25px;
-    margin-right: 25px;
-}
-
-#horsePic   {
-    height: 200px;
-    width: 300px;
-    position: relative;
-    margin-top: 25px;
-    margin-right: 25px;
-}
-
-#rhinoPic   {
-    height: 200px;
-    width: 300px;
-    position: relative;
-    margin-top: 25px;
-    margin-right: 25px;
-}
-
-#nutsPic    {
-    height: 200px;
-    width: 300px;
-    position: relative;
-    margin-top: 25px;
-    margin-right: 25px;
-
-}
-
-footer  {
-    background-color: #666666;
-    border-top: solid #4aaaa5 10px;
-    height: 80px;
-    width: 100%;
-    margin-top: 150px;
-    text-align: center;
-    vertical-align: middle;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: white;
-}
-
-h6  {
-    margin-top: 60px;
-    font-family: Georgia, Times, "Times New Roman", serif;
-}
-
-#name   {
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-
-#txtName  {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-#email  {
-    margin-bottom: 5px;
-}
-
-#txtEmail {
-    margin-bottom: 10px;
-    width: 100%;
-}
-
-#message    {
-    margin-bottom: 5px;
-}
-
-#txtMessage   {
-    height: 25%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#btnSubmit  {
-    background-color: #4aaaa5;
-    color: white;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-}
-
-h4  {
-    background-color: blue;
-    height: 10px;
-}
-*/
-
-/*
-a:link  {
-    background-color: lightgreen;
-}
 
 
-a:visited {
-    background-color: lightblue;
-}
 
 
-a:hover  {
-    background-color: lightpink;
-}
 
-a:active  {
-    background-color: lightseagreen;
-}
 
-#linkAbout  {
-    background-color: #ffffff;
-    border-right: solid #cccccc 2px;
-    float: right;
-    height: 50px;
-    width: 10%;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    margin: 0 auto;
-    margin-top: 15px;
-}
 
-#linkPortfolio    {
-    background-color: #ffffff;
-    border-right: solid #cccccc 2px;
-    float: right;
-    height: 50px;
-    width: 10%;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    margin: 0 auto;
-    margin-top: 15px;
-}
 
-#linkContact    {
-    background-color:#ffffff;
-    float: right;
-    height: 50px;
-    width: 10%;
-    line-height: 50px;
-    text-align: center;
-    vertical-align: middle;
-    margin: 0 auto;
-    margin-top: 15px;
-}*/
 
