@@ -1,106 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jason McCarthy Portfolio</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- reset styling to default values to ensure cross browser compatibility-->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
     <!-- bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
     <!-- font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- additional styling -->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
-            
 </head>
 
 <body>
 
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Jason McCarthy</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!--<div class="header">
+        <div class="container-fluid">-->
+                <nav class="navbar navbar-default">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="#">Jason McCarthy</a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="index.html">About</a></li>
+                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
 
     <div class="container">
-
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 leftColumn">            
-            <div class="page-header">
-                    <h1 id="leftColHeading">Portfolio</h1>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Connect With Me</h3>
-                    </div>
-                    <div class="panel-body"> 
-                        <i class="fa fa-github" id="gitHub" style="font-size:36px; color:black"></i>                    
-                        <i class="fa fa-linkedin-square" id="linkedIn" style="font-size:36px; color:blue"></i>
-                        <i class="fa fa-stack-overflow" id="stack" style="font-size:36px; color: orange"></i>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col">
+                        <h3>My Portfolio</h3>
                     </div>
                 </div>
-            </div>
-        
-        </div>
+                <div class="row no-gutters">
+                    <div class="col">
 
-        <!-- second row -->
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 leftColumn">
-                <img src="./assets/images/tiger.jpg" alt="Image of a Tiger" class="img-thumbnail" width="350px">
-                <img src="./assets/images/gorilla.jpg" alt="Image of a Gorilla" class="img-thumbnail" width="350px">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 leftColumn">
-                <img src="./assets/images/horse.jpg" alt="Image of a Horse" class="img-thumbnail" width="350px">
-                <img src="./assets/images/rhino.jpg" alt="Image of a Rhino" class="img-thumbnail" width="350px">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            </div>
-        </div>
-        <!-- third row -->
-        <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 leftColumn">
-                    <img src="./assets/images/nuts.jpg" alt="Image of Nuts" class="img-thumbnail" width="350px">
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                </div>
-            </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top myImages" src="./assets/images/crystal1.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Crystal Collector</h5>
+                                <p class="card-text">Match the random number by selecting a combination of crystals</p>
+                                <a href="https://jrm51c.github.io/Crystal-Collector/" class="btn btn-primary" target="_blank">Play Crystal Collector</a>
+                                <a href="https://github.com/jrm51c/Crystal-Collector" class="btn btn-primary" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top myImages" src="./assets/images/h10.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Hangman</h5>
+                                <p class="card-text">Play a computerized version of this classic children's game</p>
+                                <a href="https://jrm51c.github.io/Hangman-Game/" class="btn btn-primary" target="_blank">Play Hangman</a>
+                                <a href="https://github.com/jrm51c/Hangman-Game" class="btn btn-primary" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top myImages" src="./assets/images/marvel28.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Marvel Comics Trivia</h5>
+                                <p class="card-text">How much do you really know about Marvel Comics?</p>
+                                <a href="https://jrm51c.github.io/TriviaGame/" class="btn btn-primary" target="_blank">Test Your Knowledge</a>
+                                <a href="https://github.com/jrm51c/TriviaGame" class="btn btn-primary" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top myImages" src="./assets/images/galaxy10.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Psychic Mystery</h5>
+                                <p class="card-text">Do you have psychic powers or ESP?</p>
+                                <a href="https://jrm51c.github.io/Psychic-Game/" class="btn btn-primary" target="_blank">Test Your Skills</a>
+                                <a href="https://github.com/jrm51c/Psychic-Game" class="btn btn-primary" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top myImages" src="./assets/images/gw3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Train Schedule</h5>
+                                <p class="card-text">Relax and enjoy the ride with the Downeaster Commuter Rail</p>
+                                <a href="https://jrm51c.github.io/Train-Schedule/" class="btn btn-primary" target="_blank">View Train Schedule</a>
+                                <a href="https://github.com/jrm51c/Train-Schedule" class="btn btn-primary" target="_blank">View Code</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top myImages" src="./assets/images/ladyLiberty.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Trip Time</h5>
+                                <p class="card-text">Plan the perfect vaction from the comfort of your living room</p>
+                                <a href="https://stlefebvre.github.io/TravelGroupProject/home.html" class="btn btn-primary" target="_blank">Start Your Journey</a>
+                                <a href="https://github.com/stlefebvre/TravelGroupProject/tree/master" class="btn btn-primary" target="_blank">View Code</a>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-2">
+
+            </div>
+        </div>
     </div>
-
-        <!-- begin footer -->
-        <div class="navbar navbar-default navbar-fixed-bottom">
-            <div  class="container">
-              <p class="navbar-text">
-                  © Copyright 2018 Jason McCarthy
-              </p>
-            </div>
+    <!-- begin footer -->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text">
+                © Copyright 2018 Jason McCarthy
+            </p>
+        </div>
     </div>
     <!-- end footer -->
-    
-      <!-- jQuery CDN -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
-      <!-- Bootstrap JavaScript CDN -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+
 </body>
+<!--<style>
+    .card {
+      float: left;
+      /* display: inline; */
+    }
+    .myImages {
+        width: auto;
+        /* width: 100px; */
+        overflow: hidden;
+        height: 250px;
+    }
+
+    .column {
+        -ms-flex: 25%;
+        flex: 25%;
+        max-width: 25%;
+        padding: 0px;
+    }
+</style>-->
+
 </html>
